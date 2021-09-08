@@ -14,4 +14,6 @@ class Employee:
         print('This month total salary with Bonus = ', self.Salary + self.bonus)
 
 e1 = Employee(101, 'Jay', 25000)
+e1.set_bonus(500)
+#Code added by Atul
 
